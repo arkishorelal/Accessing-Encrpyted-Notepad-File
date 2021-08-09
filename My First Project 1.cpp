@@ -22,7 +22,7 @@ int main()
     {
     cout<<"\n \npassword sucessfully verified "<<endl;
     ifstream ob;
-	ob.open("C:\\Users\\Kishore lal\\OneDrive\\Desktop\\example.txt", ios :: in);
+	ob.open("/* your path example.txt */ ", ios :: in);
 	if(ob.is_open())
 	{
 		string line;
